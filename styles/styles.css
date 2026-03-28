@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #ecebff;
+  background:
+    radial-gradient(circle at 15% 10%, #8b00ff38, transparent 40%),
+    radial-gradient(circle at 85% 30%, #c77dff1f, transparent 45%),
+    linear-gradient(to bottom, #07040d, #05020a);
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 16px 32px;
+  background: linear-gradient(to right, #0b0613, #140a24);
+  border-bottom: 2px solid #8b00ff;
+  box-shadow: 0 0 22px #8b00ff40;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 12px #8b00ff8c);
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+.brand-text p {
+  margin: 3px 0 0;
+  font-size: 1rem;
+  color: #ecebffb8;
+}
+
+.nav {
+  display: flex;
+  gap: 22px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ecebff;
+  font-size: 1.25rem;
+  padding: 5px 0;
+  position: relative;
+  transition: 0.2s ease;
+}
+
+.nav a:hover {
+  color: #c77dff;
+  text-shadow: 0 0 12px #8b00ff40;
+}
+
+
+.main-content {
+  padding: 44px 32px 58px;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 26px 12px 30px;
+  margin: 0 auto 26px;
+  max-width: 1000px;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-shadow: 0 0 18px #8b00ff59;
+}
+
+.hero-subtitle {
+  margin: 14px 0 22px;
+  color: #ecebffc7;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.hero-button {
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #ecebff;
+  background: #8b00ff24;
+  border: 1px solid #8b00ff99;
+  box-shadow: 0 0 18px #8b00ff2e;
+  transition: 0.2s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-1px);
+  background: #8b00ff38;
+  box-shadow: 0 0 26px #8b00ff47;
+}
+
+
+.card {
+  max-width: 1000px;
+  margin: 0 auto 26px;
+  padding: 22px 22px;
+  border-radius: 16px;
+  background: #140a24d1;
+  border: 1px solid #8b00ff47;
+  box-shadow: 0 0 26px #00000094;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  letter-spacing: 0.5px;
+}
+
+.card p {
+  margin: 0;
+  color: #ecebffc7;
+  line-height: 1.65;
+}
+
+
+.featured {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 6px;
+}
+
+.featured-header {
+  display: flex;
+  align-items:baseline;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+
+.featured-title {
+  margin: 0;
+}
+
+.preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.preview-card {
+  padding: 16px;
+  border-radius: 14px;
+  background: #140a24ad;
+  border: 1px solid #8b00ff38;
+  box-shadow: 0 0 22px #00000080;
+  transition: 0.2s ease;
+}
+
+.preview-card:hover {
+  transform: translateY(-2px);
+  border-color: #8b00ff73;
+  box-shadow: 0 0 26px #8b00ff2e;
+}
+
+.preview-card h4 {
+  margin: 0 0 8px;
+  letter-spacing: 0.3px;
+}
+
+.preview-card p {
+  margin: 0;
+  color: #ecebffc2;
+}
+
+
+.footer {
+  padding: 16px;
+  text-align: center;
+  background: #0b0613;
+  border-top: 1px solid #8b00ff33;
+  color: #ecebffb8;
+  font-size: 0.9rem;
+}
+
+/*ICE Links */
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link:hover .preview-card {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+/* About */
+
+.about_hero {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid #8b00ff47;
+  background: #140a24d1;
+}
+
+.about_hero-text h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+}
+
+.about_hero-text p {
+  margin: 0;
+  font-size: 1.1rem;;
+}
+
+.about_hero-photo {
+  display: grid;
+  place-items: center;
+}
+
+.about_hero-photo img {
+  width: 225px;
+  height: 225px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 4px solid #8b00ff47;
+}
+
+.about_bio {
+  margin: 0 auto 26px;
+  padding: 22px;
+  border-radius: 18px;
+  background: #140a24d1;
+  border: 1px solid #8b00ff47;
+}
+
+.about_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.about_grid .card {
+  margin: 0;
+}
+
+.about_list {
+  margin: 0;
+  padding-left: 20px;
+}

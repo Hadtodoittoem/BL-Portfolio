@@ -1,0 +1,126 @@
+/* Add your CSS here to style your valentines day page */
+/* styles/styles.css */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: #2a1230;
+    line-height: 1.55;
+    background:
+        linear-gradient(135deg, #ff5fa2, #ffd1e6, #b8ffef);
+}
+
+#wrapper {
+    width: min(980px, 90%);
+    margin: 28px auto;
+    background: white;
+    border-radius: 22px;
+    box-shadow: 0 18px 45px #220a1c38;
+    overflow: hidden;
+    border: 1px solid whitesmoke;
+}
+
+header {
+    border-bottom: 1px solid #ff2e7a2e;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 14px 16px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    padding: 10px 14px;
+    border-radius: 1000px;
+    font-weight: 700;
+    color: #2a1230;
+    background:
+        linear-gradient(180deg, #ffffffd9, #ffffff8c);
+    border: 1px solid #ff2e7a38;
+    box-shadow: 0 10px 18px #ff2e7a1f;
+    transform: translateY(0);
+    transition: transform .15s ease, box-shadow .15s ease, background .2s ease;
+}
+
+nav li:hover {
+    transform: translateY(-2px) rotate(-1deg);
+    box-shadow: 0 16px 22px #ff2e7a2e;
+    background:
+        linear-gradient(180deg, #ffd56a70, #ff7aa940);
+}
+
+main {
+    padding: 28px 26px 32px;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    margin: 8px 0 4px;
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: .6px;
+    text-shadow: 0 8px 18px #ff2e7a2e;
+    position: relative;
+    grid-column: 1 / -1;
+}
+
+main img {
+    width: min(420px, 90%);
+    margin: 8px auto 10px;
+    display: block;
+    border-radius: 18px;
+    border: 1px solid #ff2e7a38;
+    box-shadow: 0 18px 30px #2a123026;
+    background: white;
+    padding: 10px;
+    transform: rotate(-1.2deg);
+    grid-column: 1 / -1;
+}
+
+
+section {
+    background: white;
+    border: 1px solid #ff2e7a2e;
+    border-radius: 18px;
+    padding: 16px 16px 14px;
+    box-shadow: 0 14px 22px #220a1c14;
+    position: relative;
+    overflow: hidden;
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 30px #220a1c1f;
+}
+
+h2 {
+    margin: 0 0 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+p {
+    margin: 0;
+    color: #2a1230e6;
+}
+
+footer {
+    text-align: center;
+    padding: 16px 10px;
+    font-weight: 800;
+    color: #2a1230e6;
+    background:
+        linear-gradient(90deg, #ff2e7a2e, #ffd56a38, #b8ffee38);
+    border-top: 1px solid #ff2e7a2e;
+}
