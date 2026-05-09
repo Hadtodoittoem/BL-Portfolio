@@ -1,6 +1,8 @@
 # BL-Portfolio
 Personal Portfolio
 https://hadtodoittoem.github.io/BL-Portfolio/
+
+# About Me
 IT support and web development student with experience in:
 - HTML, CSS, JavaScript
 - Linux administration
@@ -14,7 +16,7 @@ I'm currently building:
 - JavaScript UI features
 
 ## Current Projects
-- REVENANT Portfolio Website
+- Portfolio Website
 - WDD131 Coursework
 - Media-query responsive layouts
 
